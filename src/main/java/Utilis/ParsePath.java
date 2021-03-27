@@ -7,10 +7,10 @@ import java.util.regex.Pattern;
  * @date 2021/3/17 20:32
  * @note org.apache.hadoop.fs.Path 中的源码, 如何解析url
  *
- *      例如: https://gitlab.vmic.xyz:zd%40233619/11102178/data_develop.git
- *        scheme = https
- *        authority = gitlab.vmic.xyz:zd%40233619
- *        path = /11102178/data_develop.git
+ *      例如: https://gitlab.vmic.xyz:zd%40233619/1110xxxx/data_develop.git
+ *         scheme = https
+ *         authority = github.com
+ *         path = /simidagogogo/scala-java-practice.git
  *
  *      梳理过程:
  *      step1.
@@ -103,8 +103,8 @@ public class ParsePath {
     public static void main(String[] args) {
         ParsePath p2 = new ParsePath();
         p2.parse(("file:///foo/bar"));
-        p2.parse(("file://11102178:zd%40233619@/foo/bar"));
-        p2.parse(("file://11102178:zd%40233619@"));
-        p2.parse(("https://gitlab.vmic.xyz/11102178/data_develop.git"));
+        p2.parse(("file://simidagogogo:zd%402222/foo/bar"));
+        p2.parse(("file://simidagogogo:zd%402222@"));
+        p2.parse(("https://github.com/simidagogogo/scala-java-practice.git"));
     }
 }
