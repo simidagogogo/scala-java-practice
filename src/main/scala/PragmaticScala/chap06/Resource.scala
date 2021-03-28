@@ -8,22 +8,11 @@ package PragmaticScala.chap06
 class Resource private() {
   println("Starting transaction...")
 
-  private def cleanUp() = {
-    println("Ending Transaction...")
+  private def cleanUp() = println("Ending Transaction...")
 
-  }
-
-  def op1() = {
-    println("Operation1")
-  }
-
-  def op2() = {
-    println("Operation2")
-  }
-
-  def op3() = {
-    println("Operation3")
-  }
+  def op1() = println("Operation1")
+  def op2() = println("Operation2")
+  def op3() = println("Operation3")
 }
 
 object Resource {
