@@ -7,9 +7,11 @@ package PragmaticScala.chap08
  */
 object PowerOfFor {
   def main(args: Array[String]): Unit = {
-    val doubleEven: Seq[Int] = for (i <- 1 to 10; if i % 2 == 0)
+    val doubleEven = for (i <- 1 to 10; if i % 2 == 0)
       yield i * 2
 
+    println(doubleEven.toArray.getClass)
     println(doubleEven)
+
   }
 }
