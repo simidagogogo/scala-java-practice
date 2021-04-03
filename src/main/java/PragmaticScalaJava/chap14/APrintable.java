@@ -1,5 +1,5 @@
-import PragmaticScala.chap14.Printable; // 接口
-import PragmaticScala.chap14.Printable$class; // 抽象类
+import PragmaticScala.chap14.Printable; // // 导入Scala中的接口
+import PragmaticScala.chap14.Printable$class; // // 导入Scala中的抽象类
 
 /**
  * @author zhangda
