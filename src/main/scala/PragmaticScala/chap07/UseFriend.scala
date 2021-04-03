@@ -1,6 +1,4 @@
 package PragmaticScala.chap07
-
-import PragmaticScala.chap07.Human
 /**
  * @author zhangda
  * @date 2021/3/28 10:05
