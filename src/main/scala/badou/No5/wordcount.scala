@@ -17,10 +17,11 @@ object wordcount {
     val conf = new SparkConf()
       .setMaster("local")
       .setAppName("wordcount")
-
     val sc = new SparkContext(conf)
 
-    val basePath = "/Users/zhangda/Documents/badou_15th/practice/15_1_code/mapreduce_wordcount_python"
+    // 路径不对
+    val basePath = "../data/no_01/mapreduce_wordcount_python"
+    println(s"basePath = ${basePath}")
     val inputPath = s"$basePath/The_Man_of_Property.txt"
     green_println(inputPath)
     val rdd = sc.textFile(inputPath)

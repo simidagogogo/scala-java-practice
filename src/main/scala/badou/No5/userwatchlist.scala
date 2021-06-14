@@ -18,7 +18,9 @@ object userwatchlist {
       .setAppName("userwatchlist")
 
     val sc = new SparkContext(conf)
-    val basePath = "/Users/zhangda/Documents/badou_15th/practice/no_05_practice"
+
+    // 路径不对
+    val basePath = "../data/no_05"
     val input_path = sc.textFile(s"$basePath/train_new.data")
 
     val output_path = s"$basePath/output/out_2"
