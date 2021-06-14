@@ -8,6 +8,8 @@ import java.util.regex.Pattern;
  * @note org.apache.hadoop.fs.Path 中的源码, 如何解析url
  *
  *      例如: https://gitlab.vmic.xyz:zd%40233619/1110xxxx/data_develop.git
+ *
+ *         https://github.com/simidagogogo/scala-java-practice.git
  *         scheme = https
  *         authority = github.com
  *         path = /simidagogogo/scala-java-practice.git

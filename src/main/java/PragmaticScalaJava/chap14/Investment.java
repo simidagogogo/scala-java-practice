@@ -4,7 +4,7 @@
  * @note
  */
 
-package investments;
+package PragmaticScalaJava.chap14;
 
 public class Investment {
     private String investmentName;

@@ -7,8 +7,8 @@ package PragmaticScala.chap03
  */
 object MultiLine2 {
   def main(args: Array[String]): Unit = {
-    val str = """hello, world!
-			my name is simida""".stripMargin
+    val str = """hello, world! my name is simida""".stripMargin
+
     val s =
       """hello, world
         |my name is simida"

@@ -9,7 +9,7 @@ object Parameters {
 
   def max(values: Int*) = {
     println(s"values.getClass = ${values.getClass}")
-    values.foldLeft(values(0)) {Math.max}
+    values.foldLeft(values(0)) {Math.max} // 注意这种简洁的写法
   }
 
   def main(args: Array[String]): Unit = {

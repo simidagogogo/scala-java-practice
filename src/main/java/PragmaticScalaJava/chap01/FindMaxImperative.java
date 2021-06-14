@@ -19,7 +19,7 @@ public class FindMaxImperative {
     }
 
     public static void main(String[] args) {
-        List<Integer> tep = new ArrayList<>();
+        List<Integer> tep = new ArrayList<Integer>();
         tep.add(10);
         tep.add(20);
         tep.add(18);

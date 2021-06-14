@@ -4,7 +4,8 @@
  * @note
  */
 
-package investments;
+package PragmaticScalaJava.chap14;
+
 public enum InvestmentType {
     BOND, STOCK, REAL_ESTATE, COMMODITIES, COLLECTIBLES, MUTUAL_FUNDS
 }

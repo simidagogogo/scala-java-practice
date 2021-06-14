@@ -1,3 +1,6 @@
+
+package PragmaticScalaJava.chap14;
+
 import PragmaticScala.chap14.Buddy;
 import PragmaticScala.chap14.Buddy$;
 

@@ -1,3 +1,5 @@
+package PragmaticScalaJava.chap14;
+
 import PragmaticScala.chap14.BirdWithProblem;
 import PragmaticScala.chap14.NoFlyException;
 

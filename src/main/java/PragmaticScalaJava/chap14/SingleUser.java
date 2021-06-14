@@ -1,3 +1,5 @@
+package PragmaticScalaJava.chap14;
+
 import PragmaticScala.chap14.Single; // 导入Scala中的单例对象
 
 /**
